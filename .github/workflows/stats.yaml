@@ -1,8 +1,7 @@
 name: Pull Request Stats
 
-on:
-  pull_request:
-    types: [opened]
+on: [push, pull_request]
+  
 
 jobs:
   stats:
