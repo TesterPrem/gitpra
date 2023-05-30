@@ -11,7 +11,7 @@ jobs:
         uses: flowwer-dev/pull-request-stats@master
         with:
           token: ${{ secrets.ADD_A_PERSONAL_ACCESS_TOKEN }}
-          organization: 'piedpiper'
+          organization: 'SISCPL'
           period: 7
           charts: true
           disable-links: true
