@@ -7,7 +7,7 @@ jobs:
   stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Run pull request stats
+      - name: Run pull request statistics
         uses: flowwer-dev/pull-request-stats@master
         with:
           organization: 'SISCPL'
